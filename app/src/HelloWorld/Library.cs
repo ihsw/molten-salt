@@ -1,4 +1,4 @@
-namespace ConsoleApplication
+﻿namespace HelloWorld
 {
     public class User
     {
