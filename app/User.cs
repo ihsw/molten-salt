@@ -4,9 +4,6 @@ namespace ConsoleApplication
     {
         string name = "Adrian";
 
-        public override string ToString()
-        {
-            return this.name;
-        }
+        public override string ToString() => this.name;
     }
 }
