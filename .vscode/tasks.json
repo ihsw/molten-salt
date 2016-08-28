@@ -8,11 +8,11 @@
     "tasks": [
         {
             "taskName": "test",
-            "args": ["cd ./test/HelloWorld.Tests && dotnet test"]
+            "args": ["cd ./app/test/HelloWorld.Tests && dotnet test"]
         },
         {
             "taskName": "build",
-            "args": ["cd ./src && dotnet build"]
+            "args": ["cd ./app/src && dotnet build"]
         }
     ]
 }
