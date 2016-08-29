@@ -1,14 +1,16 @@
 ﻿using System;
 using Xunit;
+using HelloWorld;
 
 namespace Tests
 {
     public class Tests
     {
         [Fact]
-        public void Test1() 
+        public async void Test1()
         {
-            Assert.True(true);
+            var msg = await User.GetShit();
+            Assert.True(msg.Length > 0);
         }
     }
 }
